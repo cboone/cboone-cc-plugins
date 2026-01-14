@@ -1,0 +1,6 @@
+{
+  "enabledPlugins": {
+    "notifier@cboone-cc-plugins": true,
+    "writing-shell-scripts@cboone-cc-plugins": true
+  }
+}
