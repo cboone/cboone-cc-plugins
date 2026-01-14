@@ -2,7 +2,39 @@
 
 ## Project Overview
 
-This repository contains plugins for Claude Code.
+This repository contains plugins (hooks and skills) for Claude Code.
+
+## Structure
+
+```text
+cboone-cc-plugins/
+├── .claude-plugin/
+│   └── marketplace.json      # Plugin registry for this repository
+├── hooks/
+│   └── notifier/             # Notification hooks plugin
+│       ├── .claude-plugin/
+│       │   └── plugin.json
+│       ├── config/
+│       │   └── hooks.json
+│       └── scripts/
+│           └── notify
+└── skills/
+    └── writing-shell-scripts/  # Bash style guide skill
+        ├── .claude-plugin/
+        │   └── plugin.json
+        ├── SKILL.md
+        └── references/
+            └── BASH.md
+```
+
+## Development
+
+When adding new plugins:
+
+1. Create the plugin directory under `hooks/` or `skills/`
+2. Add a `.claude-plugin/plugin.json` with metadata
+3. Register the plugin in `.claude-plugin/marketplace.json`
+4. Update README.md with the new plugin description
 
 ## License
 
