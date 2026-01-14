@@ -1,0 +1,11 @@
+{
+  "metadata": {
+    "version": "0.1.0",
+    "description": "Claude Code skills and hooks"
+  },
+  "name": "claude-code-plugins",
+  "owner": {
+    "name": "Christopher Boone"
+  },
+  "plugins": []
+}
