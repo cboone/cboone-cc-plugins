@@ -9,19 +9,12 @@
   },
   "plugins": [
     {
-      "author": {
-        "name": "Christopher Boone",
-        "url": "https://cboone.github.io"
-      },
-      "category": "code-quality",
-      "description": "Applies Bash style conventions when creating or editing shell scripts.",
-      "keywords": ["bash", "shell", "scripts", "format", "style"],
-      "license": "MIT",
+      "name": "notifier",
+      "source": "./hooks/notifier"
+    },
+    {
       "name": "writing-shell-scripts",
-      "repository": "https://github.com/cboone/cb-claude-code-plugins",
-      "source": "./skills/writing-shell-scripts/",
-      "strict": false,
-      "version": "0.1.0"
+      "source": "./skills/writing-shell-scripts"
     }
   ]
 }
