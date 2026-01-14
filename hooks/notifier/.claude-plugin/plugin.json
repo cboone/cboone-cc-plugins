@@ -8,6 +8,6 @@
   "keywords": ["notifications", "alerts", "macos"],
   "license": "MIT",
   "name": "notifier",
-  "repository": "https://github.com/cboone/cb-claude-code-plugins",
-  "version": "0.1.0"
+  "repository": "https://github.com/cboone/cboone-cc-plugins",
+  "version": "1.0.0"
 }

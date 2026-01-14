@@ -7,6 +7,6 @@
   "keywords": ["bash", "shell", "scripts", "format", "style"],
   "license": "MIT",
   "name": "writing-shell-scripts",
-  "repository": "https://github.com/cboone/cb-claude-code-plugins",
-  "version": "0.1.0"
+  "repository": "https://github.com/cboone/cboone-cc-plugins",
+  "version": "1.0.0"
 }

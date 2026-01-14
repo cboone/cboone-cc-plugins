@@ -22,7 +22,7 @@
       "repository": "https://github.com/cboone/cboone-cc-plugins",
       "source": "./hooks/notifier",
       "tags": ["notifications", "alerts", "macos"],
-      "version": "0.1.0"
+      "version": "1.0.0"
     },
     {
       "author": {
@@ -37,7 +37,7 @@
       "repository": "https://github.com/cboone/cboone-cc-plugins",
       "source": "./skills/writing-shell-scripts",
       "tags": ["bash", "shell", "scripts", "format", "style"],
-      "version": "0.1.0"
+      "version": "1.0.0"
     }
   ]
 }
