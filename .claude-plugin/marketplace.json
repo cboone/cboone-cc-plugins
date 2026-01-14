@@ -1,20 +1,40 @@
 {
-  "metadata": {
-    "description": "Claude Code skills and hooks from Christopher Boone (cboone.github.io)",
-    "version": "0.1.0"
-  },
-  "name": "cc-plugins",
+  "description": "Claude Code skills and hooks from Christopher Boone (cboone.github.io)",
+  "name": "cboone-cc-plugins",
   "owner": {
     "name": "Christopher Boone"
   },
   "plugins": [
     {
+      "author": {
+        "name": "Christopher Boone",
+        "url": "https://cboone.github.io"
+      },
+      "category": "productivity",
+      "description": "Notifies you when Claude finishes a task or needs your attention.",
+      "hooks": "./hooks/notifier/config/hooks.json",
+      "keywords": ["notifications", "alerts", "macos"],
+      "license": "MIT",
       "name": "notifier",
-      "source": "./hooks/notifier"
+      "repository": "https://github.com/cboone/cb-claude-code-plugins",
+      "source": "./hooks/notifier",
+      "tags": ["notifications", "alerts", "macos"],
+      "version": "0.1.0"
     },
     {
+      "author": {
+        "name": "Christopher Boone",
+        "url": "https://cboone.github.io"
+      },
+      "category": "code-quality",
+      "description": "Applies Bash style conventions when creating or editing shell scripts.",
+      "keywords": ["bash", "shell", "scripts", "format", "style"],
+      "license": "MIT",
       "name": "writing-shell-scripts",
-      "source": "./skills/writing-shell-scripts"
+      "repository": "https://github.com/cboone/cb-claude-code-plugins",
+      "source": "./skills/writing-shell-scripts",
+      "tags": ["bash", "shell", "scripts", "format", "style"],
+      "version": "0.1.0"
     }
   ]
 }

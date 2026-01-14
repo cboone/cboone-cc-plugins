@@ -3,13 +3,11 @@
     "name": "Christopher Boone",
     "url": "https://cboone.github.io"
   },
-  "category": "productivity",
   "description": "Notifies you when Claude finishes a task or needs your attention.",
-  "hooks": "./hooks/notifier/config/hooks.json",
+  "hooks": "./config/hooks.json",
   "keywords": ["notifications", "alerts", "macos"],
   "license": "MIT",
   "name": "notifier",
   "repository": "https://github.com/cboone/cb-claude-code-plugins",
-  "tags": ["notifications", "alerts", "macos"],
   "version": "0.1.0"
 }
