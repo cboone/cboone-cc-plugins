@@ -3,7 +3,7 @@
     "description": "Claude Code skills and hooks from Christopher Boone (cboone.github.io)",
     "version": "0.1.0"
   },
-  "name": "claude-code-plugins",
+  "name": "cc-plugins",
   "owner": {
     "name": "Christopher Boone"
   },
