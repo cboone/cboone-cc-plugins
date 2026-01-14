@@ -1,1 +1,1 @@
-# cc-skill-writing-shell-scripts
+# Claude Code Plugins
