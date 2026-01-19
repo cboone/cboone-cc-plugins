@@ -4,10 +4,11 @@
     "url": "https://cboone.github.io"
   },
   "description": "Notifies you when Claude finishes a task or needs your attention.",
-  "hooks": "./config/hooks.json",
+  "homepage": "https://github.com/cboone/cboone-cc-plugins",
+  "hooks": "./hooks/hooks.json",
   "keywords": ["notifications", "alerts", "macos"],
   "license": "MIT",
-  "name": "notifier",
+  "name": "notify",
   "repository": "https://github.com/cboone/cboone-cc-plugins",
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
