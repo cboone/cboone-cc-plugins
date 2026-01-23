@@ -9,5 +9,6 @@
   "license": "MIT",
   "name": "writing-shell-scripts",
   "repository": "https://github.com/cboone/cboone-cc-plugins",
-  "version": "1.0.2"
+  "skills": "./",
+  "version": "1.0.3"
 }
