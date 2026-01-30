@@ -1,11 +1,10 @@
 {
   "author": {
-    "name": "Christopher Boone",
-    "url": "https://cboone.github.io"
+    "name": "Christopher Boone"
   },
   "description": "Applies Bash style conventions when creating or editing shell scripts.",
   "homepage": "https://github.com/cboone/cboone-cc-plugins",
-  "keywords": ["bash", "shell", "scripts", "format", "style"],
+  "keywords": ["bash", "format", "scripts", "shell", "style"],
   "license": "MIT",
   "name": "writing-shell-scripts",
   "repository": "https://github.com/cboone/cboone-cc-plugins",

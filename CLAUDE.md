@@ -17,13 +17,15 @@ cboone-cc-plugins/
     │   ├── hooks/
     │   │   └── hooks.json
     │   └── scripts/
-    │           └── notify
+    │       └── notify
     └── writing-shell-scripts/      # Bash style guide skill
         ├── .claude-plugin/
         │   └── plugin.json
-        ├── SKILL.md
-        └── references/
-            └── BASH.md
+        └── skills/
+            └── writing-shell-scripts/
+                ├── SKILL.md
+                └── references/
+                    └── BASH.md
 ```
 
 ## Development
